@@ -1,0 +1,38 @@
+{
+  "name": "locales-bundler",
+  "version": "0.1.0",
+  "description": "Locales bundler",
+  "main": "src/localesBundler.js",
+  "bin": "src/cli.js",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loginov-rocks/locales-bundler.git"
+  },
+  "keywords": [
+    "bundler",
+    "i18n",
+    "internationalization",
+    "json",
+    "l10n",
+    "locales",
+    "localization"
+  ],
+  "author": "Danila Loginov <danila@loginov.rocks> (https://loginov.rocks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loginov-rocks/locales-bundler/issues"
+  },
+  "homepage": "https://github.com/loginov-rocks/locales-bundler",
+  "dependencies": {
+    "deep-assign": "^3.0.0",
+    "glob": "^7.1.3",
+    "object-path": "^0.11.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-google": "^0.12.0"
+  }
+}
