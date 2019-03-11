@@ -1,4 +1,5 @@
 const deepAssign = require('deep-assign');
+const deepSortObject = require('deep-sort-object');
 const fs = require('fs');
 const glob = require('glob');
 const objectPath = require('object-path');
@@ -37,5 +38,5 @@ module.exports = (source, pattern, omit = '') => {
     deepAssign(contentsByFileNames[fileName], content);
   });
 
-  return contentsByFileNames;
+  return deepSortObject(contentsByFileNames);
 };

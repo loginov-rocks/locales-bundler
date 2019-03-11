@@ -17,7 +17,7 @@ const getFlagValue = (argument) => {
 };
 
 const omit = getFlagValue('o') || '';
-const pattern = getFlagValue('p') || '*.json';
+const pattern = getFlagValue('p') || '**/*.json';
 const destination = getFlagValue('d') || 'dist';
 
 let source = getFlagValue('s');
