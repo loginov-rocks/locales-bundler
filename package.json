@@ -1,7 +1,7 @@
 {
   "name": "locales-bundler",
-  "version": "1.0.2",
-  "description": "Locales bundler",
+  "version": "1.0.3",
+  "description": "Script to merge deep hierarchy of JSON files into a flat set of objects (files) containing deep objects inside",
   "main": "src/localesBundler.js",
   "bin": "src/cli.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "object-path": "^0.11.5"
   },
   "devDependencies": {
-    "eslint": "^7.17.0",
+    "eslint": "^7.20.0",
     "eslint-config-google": "^0.14.0"
   }
 }
