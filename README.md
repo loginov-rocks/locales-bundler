@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/locales-bundler)](https://www.npmjs.com/package/locales-bundler)
 [![CI](https://github.com/loginov-rocks/locales-bundler/actions/workflows/ci.yml/badge.svg)](https://github.com/loginov-rocks/locales-bundler/actions/workflows/ci.yml)
+[![CD](https://github.com/loginov-rocks/locales-bundler/actions/workflows/cd.yml/badge.svg)](https://github.com/loginov-rocks/locales-bundler/actions/workflows/cd.yml)
 
 Script to merge deep hierarchy of JSON files into a flat set of objects (files) containing deep objects inside. 
 
